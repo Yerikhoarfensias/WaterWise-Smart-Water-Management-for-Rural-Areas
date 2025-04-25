@@ -1,0 +1,38 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f8fb;
+  color: #333;
+  text-align: center;
+  padding: 2em;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.bar-container {
+  width: 100%;
+  height: 200px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+  position: relative;
+}
+
+.bar {
+  background: #00bcd4;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transition: height 0.5s ease-in-out;
+}
+
+.alert-box {
+  background: #ffe0e0;
+  padding: 1em;
+  border: 1px solid #f88;
+  border-radius: 8px;
+}
